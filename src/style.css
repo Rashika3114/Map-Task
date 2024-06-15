@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(110, 109, 109);
+  
+   font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    
+}
+.search input{
+    width: 80%;
+    padding: 10px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    outline: none;
+   
+}
+
+.box{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    
+    width: 80%;
+}
+.image{
+
+    display: flex;
+    align-items: center;
+    
+}
+.image-div{
+    margin: 15px;
+}
+.image img{
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;
+}
+.innerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
